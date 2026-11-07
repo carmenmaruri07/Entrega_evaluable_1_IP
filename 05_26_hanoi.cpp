@@ -15,7 +15,7 @@ void torresHanoi(int discos, int origen, int destino, int auxiliar) {
 int main() {
     int discos;
 
-    cout << "Introduce el numero de discos: ";
+    cout << "Numero de discos: ";
     cin >> discos;
 
     if (discos < 1) {
