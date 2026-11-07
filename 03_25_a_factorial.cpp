@@ -8,11 +8,11 @@ int main() {
     cpp_int factorial = 1;
     int contador = 1;
 
-    cout << "Introduce un entero no negativo: ";
+    cout << "Introduce un entero positivo: ";
     cin >> n;
 
     if (n < 0) {
-        cout << "El numero debe ser no negativo." << endl;
+        cout << "El numero no debe ser negativo." << endl;
         return 0;
     }
 
