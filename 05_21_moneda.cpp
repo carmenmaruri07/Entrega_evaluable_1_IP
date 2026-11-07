@@ -4,7 +4,7 @@
 using namespace std;
 
 int flip() {
-    return rand() % 2; // 0 = Tails, 1 = Heads
+    return rand() % 2; // 0 = cruz, 1 = cara
 }
 
 int main() {
@@ -17,17 +17,17 @@ int main() {
         int resultado = flip();
 
         if (resultado == 1) {
-            cout << "Heads" << endl;
+            cout << "caras" << endl;
             ++caras;
         }
         else {
-            cout << "Tails" << endl;
+            cout << "cruces" << endl;
             ++cruces;
         }
     }
 
-    cout << "\nHeads: " << caras << endl;
-    cout << "Tails: " << cruces << endl;
+    cout << "\nCaras: " << caras << endl;
+    cout << "Cruces: " << cruces << endl;
 
     return 0;
 }
