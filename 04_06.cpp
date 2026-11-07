@@ -11,3 +11,8 @@ int main() {
 
     return 0;
 }
+/*El programa utiliza dos bucles for anidados 
+    para imprimir un rectángulo de símbolos. 
+    El bucle externo controla las 10 filas, 
+    mientras que el bucle interno imprime 5 
+    símbolos @ en cada una de ellas. */
