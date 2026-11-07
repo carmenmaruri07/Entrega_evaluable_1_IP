@@ -15,7 +15,7 @@ int main() {
     while (termino <= MAX_TERMINOS) {
         pi += signo * 4.0 / (2 * termino - 1);
 
-        // Mostrar los primeros cinco valores y despues cada 10000.
+        // Muestra los primeros cinco valores y despues cada 10000.
         if (termino <= 5 || termino % 10000 == 0) {
             cout << termino << "\t" << fixed << setprecision(8) << pi << endl;
         }
@@ -33,3 +33,6 @@ int main() {
 
     return 0;
 }
+/*Se requieren exactamente 136,358 términos. 
+    En este punto, la aproximación alcanza 
+    por primera vez el valor 3.14159000.... */
