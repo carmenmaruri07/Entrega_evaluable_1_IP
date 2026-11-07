@@ -18,7 +18,7 @@ int main() {
         numero /= 10;
     }
 
-    // Deshacer primero los intercambios.
+    // Deshace los intercambios.
     int temporal = cifras[0];
     cifras[0] = cifras[2];
     cifras[2] = temporal;
@@ -27,7 +27,7 @@ int main() {
     cifras[1] = cifras[3];
     cifras[3] = temporal;
 
-    // Deshacer la suma de 7.
+    // Deshace la suma de 7.
     for (int i = 0; i < 4; ++i) {
         cifras[i] = (cifras[i] + 3) % 10;
     }
