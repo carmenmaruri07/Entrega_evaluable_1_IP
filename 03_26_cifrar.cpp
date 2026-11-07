@@ -22,7 +22,7 @@ int main() {
         cifras[i] = (cifras[i] + 7) % 10;
     }
 
-    // Intercambiar primera con tercera y segunda con cuarta.
+    // Intercambia la primera con tercera y segunda con cuarta.
     int temporal = cifras[0];
     cifras[0] = cifras[2];
     cifras[2] = temporal;
